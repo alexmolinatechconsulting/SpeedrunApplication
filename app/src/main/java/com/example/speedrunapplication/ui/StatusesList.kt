@@ -56,7 +56,12 @@ fun StatusesList(sr : StatusRepository) {
 //                                    TextButton(
 //                                        onClick = {isExpandedMap[it] = true},
 //                                    ){
+                                    Row {
                                         Text(text = statusesList[it].name!!)
+                                    }
+                                    Row{
+                                        Text(text = statusesList[it].lineSatuses?.get(0)?.statusSeverityDescription ?: "")
+                                    }
                                     //}
                                 }
 //                                if(isExpandedMap[it]){

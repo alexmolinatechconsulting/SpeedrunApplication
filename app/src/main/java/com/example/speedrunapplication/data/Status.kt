@@ -18,7 +18,7 @@ data class Status(
     @SerializedName("modified")
     val modified : String?,
     @SerializedName("lineStatuses")
-    val lineSatuses : Any?,
+    val lineSatuses : List<LineStatus>?,
     @SerializedName("routeSections")
     val routeSections : Any?,
     @SerializedName("serviceTypes")
