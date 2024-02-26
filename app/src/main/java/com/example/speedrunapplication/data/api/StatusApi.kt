@@ -1,9 +1,8 @@
-package com.example.speedrunapplication.api
+package com.example.speedrunapplication.data.api
 
 import com.example.speedrunapplication.BuildConfig
-import com.example.speedrunapplication.data.Status
+import com.example.speedrunapplication.data.model.Status
 import retrofit2.http.GET
-import retrofit2.http.Query
 
 interface StatusApi {
     @GET(BuildConfig.ENDPOINT_STATUS)

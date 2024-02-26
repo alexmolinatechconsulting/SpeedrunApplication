@@ -1,6 +1,6 @@
-package com.example.speedrunapplication.api
+package com.example.speedrunapplication.data.api
 
-import com.example.speedrunapplication.data.Status
+import com.example.speedrunapplication.data.model.Status
 import retrofit2.Retrofit
 
 class StatusApiImpl(private var retrofit : Retrofit) : StatusApi {

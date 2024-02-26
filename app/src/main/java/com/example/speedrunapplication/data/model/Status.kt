@@ -1,4 +1,4 @@
-package com.example.speedrunapplication.data
+package com.example.speedrunapplication.data.model
 
 import com.google.gson.annotations.SerializedName
 

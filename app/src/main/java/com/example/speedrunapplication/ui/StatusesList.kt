@@ -18,7 +18,7 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.unit.dp
-import com.example.speedrunapplication.repository.StatusRepository
+import com.example.speedrunapplication.data.repository.StatusRepository
 
 // keep a remember state on the repository for schools
 @SuppressLint("UnusedMaterial3ScaffoldPaddingParameter")

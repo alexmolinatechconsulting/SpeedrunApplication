@@ -1,8 +1,8 @@
-package com.example.speedrunapplication
+package com.example.speedrunapplication.ui
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
-import com.example.speedrunapplication.repository.StatusRepository
+import com.example.speedrunapplication.data.repository.StatusRepository
 import org.koin.android.ext.android.get
 import androidx.activity.compose.setContent
 import com.example.speedrunapplication.ui.StatusesList

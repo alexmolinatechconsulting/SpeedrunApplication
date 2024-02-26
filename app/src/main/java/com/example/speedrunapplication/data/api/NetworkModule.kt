@@ -1,4 +1,4 @@
-package com.example.speedrunapplication.api
+package com.example.speedrunapplication.data.api
 
 import com.example.speedrunapplication.BuildConfig
 import okhttp3.OkHttpClient
@@ -26,5 +26,5 @@ val NetworkModule = module {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
     }
-    single<StatusApi>{StatusApiImpl(get())}
+    single<StatusApi>{ StatusApiImpl(get()) }
 }
